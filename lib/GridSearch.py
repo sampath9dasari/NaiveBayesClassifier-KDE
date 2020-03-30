@@ -2,7 +2,7 @@
 Function to loop through available combinations of hyper parameters and
 selecting the best performing parameter for a holdout set
 """
-from lib.NaiveBayesClassifier import NaiveBayesClassifier
+# from lib.NaiveBayesClassifier import NaiveBayesClassifier
 
 import numpy as np
 from itertools import product
