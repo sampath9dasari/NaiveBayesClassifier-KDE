@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class NaiveBayesClassifier():
 
     def __init__(self, bandwidth=1, kernel='radial', MultiBW=False):
@@ -70,4 +71,4 @@ class NaiveBayesClassifier():
     def score(self, x_test, y_test):
         self.pred_y = self.predict(x_test)
         accuracy_score = self.accuracy(y_test)
-        return (accuracy_score)
+        return accuracy_score
