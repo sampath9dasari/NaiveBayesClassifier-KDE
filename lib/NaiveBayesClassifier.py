@@ -3,10 +3,10 @@ import numpy as np
 
 class NaiveBayesClassifier():
 
-    def __init__(self, bandwidth=1, kernel='radial', MultiBW=False):
+    def __init__(self, bandwidth=1, kernel='radial', multi_bw=False):
         self.priors = dict()
         self.dim = 1
-        self.MultiBW = MultiBW
+        self.multi_bw = multi_bw
         self.bandwidth = bandwidth
         if kernel == "radial":
             self.kernel = self.radial
@@ -51,7 +51,7 @@ class NaiveBayesClassifier():
         P = np.zeros((N, K))
         x_train = self.x_train
         y_train = self.y_train
-        if self.MultiBW:
+        if self.multi_bw:
             bw = self.bandwidth
         else:
             bw = np.repeat(self.bandwidth, K)

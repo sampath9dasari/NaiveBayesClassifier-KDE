@@ -2,7 +2,7 @@
 Function to loop through available combinations of hyper parameters and
 selecting the best performing parameter for a holdout set
 """
-# from lib.NaiveBayesClassifier import NaiveBayesClassifier
+from lib.NaiveBayesClassifier import NaiveBayesClassifier
 
 import numpy as np
 from itertools import product
@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 def grid_scoring(row, x_sub, y_sub, x_val, y_val, multi_bw):
     bandwidth, kernel = row
-    nbmodel = NaiveBayesClassifier(bandwidth=bandwidth, kernel=kernel, MultiBW=multi_bw)
+    nbmodel = NaiveBayesClassifier(bandwidth=bandwidth, kernel=kernel, multi_bw=multi_bw)
     # Train the network
     nbmodel.fit(x_sub, y_sub)
     # Accuracy on the validation set
