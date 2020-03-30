@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/NaiveBayesKDE.iml" filepath="$PROJECT_DIR$/.idea/NaiveBayesKDE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../perceptron_scratch/.idea/perceptron_scratch.iml" filepath="$PROJECT_DIR$/../perceptron_scratch/.idea/perceptron_scratch.iml" />
     </modules>
   </component>
 </project>
