@@ -16,7 +16,7 @@ def grid_search(x_train, y_train, bw, kl, multi_bw=False):
     Grid Search algorithm uses Multi Processing to perform faster parameter tuning
 
     :param x_train: Array of input data
-    :param y_train: Array of labels
+    :param y_train: Array of output labels
     :param bw: An integer when we use a single bandwidth model
     :param bw: A list of integers when using a class-specific bandwidth model
     :param kl: String specifying the kernel to be used
