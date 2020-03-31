@@ -1,4 +1,4 @@
-# Naive Bayes Classifier with Kernel Density Estimation from scratch
+# Naive Bayes Classifier with KDE(Kernel Density Estimation) from scratch
 
 In this work, we will implement a Naive Bayes Classifier that perform density estimation using Parzen windows.
 
