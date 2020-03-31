@@ -6,6 +6,7 @@ In this work, we will implement a Naive Bayes Classifier that perform density es
 * At training time, there's no processing done, except for memorizing the training data.
 * At test time, every sample in test set is computed for density across every sample in training set.
 
+## Features 
 
 We will implement multiple kernels:
 * Hypercube
