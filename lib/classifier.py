@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class NaiveBayesClassifier():
+class NaiveBayesClassifier:
     """
     A Naive Bayes Classifier using Kernel Density Estimation with Parzen windows.
 
